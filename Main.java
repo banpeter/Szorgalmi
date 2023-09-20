@@ -4,15 +4,13 @@ import java.util.Scanner;
 import java.util.Set;
 
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
+
         System.out.println("Hello and welcome!");
 
-        //Set<Student> osztaly = new HashSet<Student>();
+
         Set<Student> osztaly ;
 
 
@@ -26,7 +24,7 @@ public class Main {
 
             muvelet = choose(input);
 
-            //muvelet = input.nextInt();
+
             if(muvelet == 0){
                 folytat = false;
             }
@@ -48,13 +46,13 @@ public class Main {
                 osztaly = Beolvas();
                 String st = nevBeovlas(input);
                 search(osztaly,st);
-                //input = new Scanner(System.in);
+
 
             }
             else if (muvelet == 3) {
                 osztaly = Beolvas();
                 String kod = kodBeovlas(input);
-                //input = new Scanner(System.in);
+
 
                 Kiir(osztaly,kod);
                 osztaly = Beolvas();
